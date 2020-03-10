@@ -1,3 +1,15 @@
+$(document).ready(function() {
+  var images = ['close-up-of-motherboard.jpg', 'photography-product-download.jpg', 'programmer-focused-on-code.jpg'];
+  var couleurs = ['#1abc9c', '#2ecc71', '#3498db', '#9b59b6', '#34495e', '#f1c40f', '#e67e22', '#e74c3c', '#ecf0f1', '#95a5a6'];
+
+  var imageChoisi = images[Math.floor(Math.random() * images.length)];
+  var couleurChoisi = couleurs[Math.floor(Math.random() * couleurs.length)];
+
+  $('.login-image-ab').css('background-image', 'url(img/' + imageChoisi + ')');
+  $('body').css('background-color', couleurChoisi);
+});
+
+
 $(document).on("click", "#signUp", function(e) {
 
   var message=
