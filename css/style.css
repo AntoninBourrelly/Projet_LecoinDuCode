@@ -7,7 +7,10 @@ body{
 .login-image-ab{
   margin:0;
   padding:0;
-  background: url(image/bg.jpg) no-repeat;
+  border-top-left-radius:
+  background:no-repeat;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 }
