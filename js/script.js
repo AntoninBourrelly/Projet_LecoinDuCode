@@ -6,7 +6,7 @@ $(document).ready(function() {
   var couleurChoisi = couleurs[Math.floor(Math.random() * couleurs.length)];
 
   $('.login-image-ab').css('background-image', 'url(img/' + imageChoisi + ')');
-  $('body').css('background-color', couleurChoisi);
+  $('#bodyIndex').css('background-color', couleurChoisi);
 });
 
 
